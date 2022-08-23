@@ -1,11 +1,11 @@
 body{
     font-family: 'Heebo', sans-serif;
     margin: 0;
+    padding: 0;
 }
-h1{
+#header-line{
     font-size: 4rem;
-    color:white;
-    
+    color:white;  
 }
 .header{
     background-image: url(images/donation13.jpg);
@@ -26,8 +26,64 @@ h1{
     text-decoration: none;
     color: aliceblue;
     font-size: 15px;
-    background-color: coral;
+    background-color: rgb(231, 45, 12);
     padding: 8px 20px;
     border-radius: 5px;
     
+}
+.donate-part{
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+   
+}
+.semi-heading{
+    font-size: 2rem;
+}
+.donate-box{
+    display: flex;
+    margin-left: 360px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.amount{
+    margin: 10px;
+    padding: 5px 15px;
+    background-color: rgb(245, 238, 238);
+    border-radius: 10px;
+}
+#red-amount{
+    color:rgba(202, 44, 44, 0.527) ;
+    border: 5px solid rgba(202, 44, 44, 0.547);
+}
+#other-amount{
+    margin-bottom: 30px;
+    text-align: center;
+}
+.flex-container{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.plan-item{
+    width: 30%;
+    height: 300px;
+    margin: 2%;
+    padding-top: 50px;
+    padding-left: 10px;
+    border-radius: 10px;
+    text-align: left;
+}
+.plan-heading{
+    font-size: 25px;
+}
+#food{
+    background-color: rgba(173, 238, 173, 0.548);
+}
+#shelter{
+    background-color: rgba(216, 191, 191, 0.637);
+}
+#education{
+    background-color: rgba(235, 150, 90, 0.692);
 }
