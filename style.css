@@ -87,3 +87,24 @@ body{
 #education{
     background-color: rgba(235, 150, 90, 0.692);
 }
+form{
+    margin-left: 20%;
+    margin-top: 30px;
+    width: 60%;
+    height: 150px;
+    background-color: blanchedalmond;
+    text-align: center;
+    padding-top: 100px;
+}
+footer{
+    width: 100%;
+    background-color: rgb(36, 35, 35);
+    margin: 0%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+#footer-heading{
+    color: rgb(146, 48, 48);
+    font-size: 2rem;
+}
