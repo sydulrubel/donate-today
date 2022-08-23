@@ -104,7 +104,22 @@ footer{
     padding-bottom: 10px;
     text-align: center;
 }
+.question{
+    height: 30px;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 30px;
+    background-color: rgba(240, 220, 193, 0.199);
+}
 #footer-heading{
     color: rgb(146, 48, 48);
     font-size: 2rem;
+}
+#faqs{
+    text-decoration: none;
+    font-size: 20px;
+}
+#question-zone{
+    text-align: left;
+    margin-top: 80px;
 }
